@@ -87,6 +87,25 @@
     background: var(--coral-hover);
     transform: translateY(-1px);
   }
+  .api-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 48px;
+    color: var(--coral);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 2px solid var(--coral);
+    border-radius: 999px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .api-link svg { flex-shrink: 0; }
+  .api-link:hover {
+    background: var(--coral);
+    color: #fff;
+  }
   footer {
     text-align: center;
     padding: 24px;
@@ -104,9 +123,17 @@
 
   <main>
     <div class="hero">
-      <h1>Bentornato</h1>
-      <p>Accedi alla tua area riservata per gestire SMS, RCS e WhatsApp in un unico posto.</p>
+      <h1>Bentornato su Nifteem</h1>
+      <p>Il servizio di mobile messaging su cui puoi contare. Accedi alla tua area riservata per gestire SMS, RCS e WhatsApp in un unico posto.</p>
       <a class="btn" href="https://app.nifteem.com/login">Accedi</a>
+      <br>
+      <a class="api-link" href="https://apidoc.nifteem.com/" target="_blank" rel="noopener noreferrer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 18 22 12 16 6"></polyline>
+          <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        Documentazione API REST
+      </a>
     </div>
   </main>
 
