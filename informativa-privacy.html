@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa sul trattamento dei dati personali — Servizi Nifteem — MAMOBOX S.r.l.</title>
+<meta name="description" content="Informativa privacy relativa ai Servizi Nifteem forniti da MAMOBOX S.r.l. Bozza di lavoro per revisione legale.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@500;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --coral:#ea645c;
+  --coral-hover:#de5850;
+  --coral-deep:#b8443b;
+  --sky:#a9d8ef;
+  --sky-light:#eef6fb;
+  --sky-line:#d3e7f2;
+  --ink:#14171a;
+  --muted:#5b6672;
+  --rule:#dfe6ec;
+  --rule-strong:#c2ced8;
+  --flag-bg:#fdf0d5;
+  --flag-edge:#d99b2b;
+  --display:'Lexend Zetta',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --sans:'Nunito',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#ffffff 0%,var(--sky-light) 45%,#ffffff 100%);
+  background-attachment:fixed;
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.68;
+  font-weight:400;
+}
+
+/* ---------- top bar ---------- */
+.topbar{
+  display:flex;
+  justify-content:center;
+  padding:34px 24px 0;
+}
+.topbar img{height:40px;width:auto;display:block}
+
+/* ---------- shell ---------- */
+.sheet{
+  max-width:1140px;
+  margin:0 auto;
+}
+
+.masthead{
+  padding:44px 28px 34px;
+  border-bottom:2px solid var(--sky);
+}
+.masthead .kicker{
+  font-family:var(--display);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--coral);
+  margin:0 0 22px;
+}
+.masthead h1{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:clamp(19px,2.9vw,29px);
+  line-height:1.32;
+  margin:0 0 20px;
+  max-width:22ch;
+  color:var(--ink);
+}
+.masthead .lede{
+  font-size:18px;
+  color:var(--muted);
+  margin:0;
+  max-width:56ch;
+}
+
+.docmeta{
+  margin:34px 0 0;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:0 26px;
+  border-top:1px solid var(--rule);
+}
+.docmeta div{
+  padding:14px 0;
+  border-bottom:1px solid var(--rule);
+}
+.docmeta dt{
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin:0 0 3px;
+}
+.docmeta dd{margin:0;font-size:16px;font-weight:600}
+
+/* ---------- layout ---------- */
+.body-grid{display:block;padding:0 28px 80px}
+
+.toc{
+  font-size:15px;
+  border-bottom:1px solid var(--rule);
+  padding:26px 0 30px;
+  margin-bottom:14px;
+}
+.toc h2{
+  font-family:var(--display);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin:0 0 16px;
+}
+.toc ol{list-style:none;margin:0;padding:0;columns:2;column-gap:34px}
+.toc li{break-inside:avoid;margin:0 0 8px;display:flex;gap:10px;align-items:baseline}
+.toc .num{
+  color:var(--coral);
+  font-variant-numeric:tabular-nums;
+  font-size:12.5px;
+  font-weight:700;
+  min-width:1.7em;
+  text-align:right;
+  flex:none;
+}
+.toc a{color:var(--muted);text-decoration:none;font-weight:600}
+.toc a:hover{color:var(--coral-deep)}
+.toc a.here{color:var(--ink);text-decoration:underline;text-decoration-color:var(--coral);text-underline-offset:4px;text-decoration-thickness:2px}
+.toc li.internal a{color:var(--flag-edge)}
+
+article{max-width:none}
+
+section{padding-top:46px;scroll-margin-top:20px}
+section + section{border-top:1px solid var(--rule)}
+
+h2.sec{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:clamp(15px,2vw,19px);
+  line-height:1.45;
+  margin:0 0 22px;
+  display:flex;
+  gap:14px;
+  align-items:baseline;
+  max-width:30ch;
+}
+h2.sec .n{
+  font-size:13px;
+  font-weight:700;
+  color:var(--coral);
+  flex:none;
+  min-width:2em;
+  font-variant-numeric:tabular-nums;
+}
+h3{
+  font-family:var(--sans);
+  font-weight:700;
+  font-size:19px;
+  color:var(--ink);
+  margin:34px 0 12px;
+  max-width:40ch;
+}
+p{margin:0 0 16px;max-width:72ch}
+ul{margin:0 0 18px;padding:0;list-style:none;max-width:72ch}
+ul li{position:relative;padding-left:24px;margin-bottom:12px}
+ul li::before{
+  content:"";
+  position:absolute;
+  left:2px;top:.66em;
+  width:8px;height:8px;
+  border-radius:999px;
+  background:var(--sky);
+}
+strong{font-weight:700}
+a{color:var(--coral-deep);text-decoration-color:rgba(184,68,59,.4);text-underline-offset:2px}
+a:hover{color:var(--coral)}
+a:focus-visible{outline:2px solid var(--coral);outline-offset:3px;border-radius:3px}
+
+/* ---------- flags & notes ---------- */
+mark.tbd{
+  background:var(--flag-bg);
+  color:inherit;
+  padding:.08em .3em;
+  border-radius:4px;
+  box-decoration-break:clone;
+  -webkit-box-decoration-break:clone;
+}
+.note{
+  font-size:15px;
+  line-height:1.6;
+  background:var(--sky-light);
+  border-left:3px solid var(--coral);
+  border-radius:0 10px 10px 0;
+  padding:16px 20px;
+  margin:0 0 22px;
+  max-width:72ch;
+}
+.note p{margin:0 0 10px;max-width:none}
+.note p:last-child{margin-bottom:0}
+.note .label{
+  display:block;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  color:var(--coral-deep);
+  margin-bottom:8px;
+}
+
+.internal-banner{
+  font-size:15px;
+  line-height:1.6;
+  background:var(--flag-bg);
+  border:1px solid #edd9ab;
+  border-radius:12px;
+  padding:18px 22px;
+  margin:34px 0 0;
+}
+.internal-banner strong{font-weight:700}
+
+/* ---------- tables ---------- */
+.tablewrap{margin:24px 0 8px;overflow-x:auto}
+table{
+  border-collapse:collapse;
+  width:100%;
+  min-width:660px;
+  font-size:14.5px;
+  line-height:1.55;
+}
+caption{
+  text-align:left;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  color:var(--muted);
+  padding-bottom:10px;
+}
+thead th{
+  text-align:left;
+  font-weight:700;
+  font-size:13px;
+  color:var(--ink);
+  padding:10px 16px 10px 0;
+  border-bottom:2px solid var(--sky);
+  vertical-align:bottom;
+}
+tbody td{
+  padding:14px 16px 14px 0;
+  border-bottom:1px solid var(--rule);
+  vertical-align:top;
+  color:var(--muted);
+}
+tbody td:first-child{color:var(--ink);font-weight:700;width:23%}
+tbody td:nth-child(2){width:24%}
+tbody tr:last-child td{border-bottom:1px solid var(--rule-strong)}
+table.two tbody td:first-child{width:36%}
+table.two{min-width:520px}
+
+/* ---------- footer ---------- */
+footer{
+  border-top:2px solid var(--sky);
+  margin:56px auto 0;
+  padding:28px;
+  font-size:13px;
+  color:var(--muted);
+  max-width:1140px;
+  text-align:center;
+}
+footer p{max-width:none;margin:0 0 8px}
+footer .org{color:var(--ink);font-weight:700;font-size:15px}
+footer a{font-weight:700}
+
+/* ---------- desktop ---------- */
+@media (min-width:1000px){
+  .masthead{padding:56px 60px 40px}
+  .body-grid{
+    display:grid;
+    grid-template-columns:250px 1fr;
+    gap:60px;
+    padding:0 60px 100px;
+    align-items:start;
+  }
+  .toc{
+    position:sticky;
+    top:30px;
+    border-bottom:none;
+    border-right:1px solid var(--sky-line);
+    padding:48px 26px 20px 0;
+    margin:0;
+    max-height:calc(100vh - 60px);
+    overflow-y:auto;
+  }
+  .toc ol{columns:1}
+  article{max-width:78ch}
+  section{padding-top:52px}
+  footer{padding:30px 60px 70px}
+}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .topbar{padding:26px 20px 0}
+  .masthead{padding:32px 20px 26px}
+  .body-grid{padding:0 20px 56px}
+  footer{padding:24px 20px 46px}
+  .toc ol{columns:1}
+
+  .tablewrap{overflow-x:visible}
+  table,thead,tbody,tr,td{display:block;width:100%;min-width:0}
+  thead{display:none}
+  tbody tr{
+    background:#fff;
+    border:1px solid var(--sky-line);
+    border-left:3px solid var(--coral);
+    border-radius:0 10px 10px 0;
+    padding:6px 16px;
+    margin-bottom:14px;
+  }
+  tbody td{
+    border-bottom:1px solid var(--rule);
+    padding:11px 0;
+    width:auto !important;
+  }
+  tbody tr td:last-child{border-bottom:none}
+  tbody td::before{
+    content:attr(data-label);
+    display:block;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:3px;
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto !important;transition:none !important}
+}
+
+@media print{
+  body{background:#fff;font-size:10.5pt}
+  .topbar{padding:0 0 12pt}
+  .toc{display:none}
+  .body-grid{display:block;padding:0}
+  section{page-break-inside:auto}
+  h2.sec{page-break-after:avoid}
+  table{min-width:0;font-size:9pt}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="index.html"><img src="nifteem-logo.svg" alt="Nifteem"></a>
+</div>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <p class="kicker">Servizi Nifteem — MAMOBOX S.r.l.</p>
+    <h1>Informativa sul trattamento dei dati personali</h1>
+    <p class="lede">Come trattiamo i dati personali delle persone con cui entriamo in rapporto diretto: chi visita il sito, chi ci contatta, chi usa la Piattaforma e chi lavora presso i nostri fornitori.</p>
+
+    <dl class="docmeta">
+      <div><dt>Titolare del trattamento</dt><dd>MAMOBOX S.r.l.</dd></div>
+      <div><dt>Servizio</dt><dd>Nifteem</dd></div>
+      <div><dt>Ultimo aggiornamento</dt><dd>1 settembre 2026</dd></div>
+    </dl>
+
+  </header>
+
+  <div class="body-grid">
+
+    <nav class="toc" aria-label="Indice del documento">
+      <h2>Indice</h2>
+      <ol>
+        <li><span class="num">1</span><a href="#s1">In sintesi</a></li>
+        <li><span class="num">2</span><a href="#s2">Chi siamo e come contattarci</a></li>
+        <li><span class="num">3</span><a href="#s3">A chi si rivolge</a></li>
+        <li><span class="num">4</span><a href="#s4">Titolari o responsabili</a></li>
+        <li><span class="num">5</span><a href="#s5">Se visiti il sito</a></li>
+        <li><span class="num">6</span><a href="#s6">Se ci contatti o chiedi una demo</a></li>
+        <li><span class="num">7</span><a href="#s7">Se usi la Piattaforma</a></li>
+        <li><span class="num">8</span><a href="#s8">Fatturazione e pagamenti</a></li>
+        <li><span class="num">9</span><a href="#s9">Assistenza e supporto</a></li>
+        <li><span class="num">10</span><a href="#s10">Sicurezza, frodi e abusi</a></li>
+        <li><span class="num">11</span><a href="#s11">I dati dei destinatari</a></li>
+        <li><span class="num">12</span><a href="#s12">Intelligenza artificiale</a></li>
+        <li><span class="num">13</span><a href="#s13">Dati aggregati</a></li>
+        <li><span class="num">14</span><a href="#s14">Con chi condividiamo i dati</a></li>
+        <li><span class="num">15</span><a href="#s15">Trasferimenti extra-SEE</a></li>
+        <li><span class="num">16</span><a href="#s16">Tempi di conservazione</a></li>
+        <li><span class="num">17</span><a href="#s17">Come proteggiamo i dati</a></li>
+        <li><span class="num">18</span><a href="#s18">Decisioni automatizzate</a></li>
+        <li><span class="num">19</span><a href="#s19">I tuoi diritti</a></li>
+        <li><span class="num">20</span><a href="#s20">Minori</a></li>
+        <li><span class="num">21</span><a href="#s21">Cookie</a></li>
+        <li><span class="num">22</span><a href="#s22">Modifiche</a></li>
+        <li><span class="num">23</span><a href="#s23">Contatti</a></li>
+      </ol>
+    </nav>
+
+    <article>
+
+
+      <!-- 1 -->
+      <section id="s1">
+        <h2 class="sec"><span class="n">1</span>In sintesi</h2>
+        <p>Nifteem è una piattaforma di messaggistica multicanale che consente alle aziende di inviare e ricevere messaggi SMS, RCS, WhatsApp e Telegram. Il servizio è fornito da MAMOBOX S.r.l.</p>
+        <p>Questa informativa spiega come trattiamo i dati personali delle persone con cui entriamo in rapporto direttamente: chi visita il nostro sito, chi ci contatta, chi utilizza la Piattaforma per conto di un'azienda cliente e chi lavora presso i nostri fornitori.</p>
+        <p>Non spiega invece come vengono trattati i dati dei destinatari dei messaggi inviati attraverso Nifteem. Quei dati sono scelti e caricati dai nostri Clienti, che ne rispondono in qualità di titolari: noi li trattiamo per loro conto, sulla base delle loro istruzioni. Se hai ricevuto un messaggio e vuoi sapere chi tratta i tuoi dati, trovi indicazioni alla <strong><a href="#s11-4">sezione 11.4</a></strong>.</p>
+      </section>
+
+      <!-- 2 -->
+      <section id="s2">
+        <h2 class="sec"><span class="n">2</span>Chi siamo e come contattarci</h2>
+        <p>Il titolare del trattamento è <strong>MAMOBOX S.r.l.</strong>, con sede legale in Belluno (BL), via Masi Simonetti n. 48, iscritta al Registro delle Imprese di Belluno, partita IVA 01220280257 ("MAMOBOX", "noi").</p>
+        <p>Puoi contattarci per qualsiasi questione relativa ai tuoi dati personali all'indirizzo info@mamobox.it . Ti chiediamo di indicare nell'oggetto il riferimento "privacy", così da consentirci di gestire la richiesta nei termini di legge.</p>
+
+        <p>Non abbiamo nominato un Responsabile della protezione dei dati. La valutazione dei presupposti di cui all'art. 37 GDPR è documentata internamente e viene riesaminata periodicamente; l'esito va confermato dai legali e aggiornato al crescere dei volumi di traffico.</p>
+
+      </section>
+
+      <!-- 3 -->
+      <section id="s3">
+        <h2 class="sec"><span class="n">3</span>A chi si rivolge questa informativa</h2>
+        <p>Questa informativa riguarda:</p>
+        <ul>
+          <li>i visitatori del sito nifteem.com;</li>
+          <li>le persone che ci contattano per informazioni, preventivi o per richiedere una demo;</li>
+          <li>i rappresentanti, i dipendenti e i collaboratori dei nostri Clienti e potenziali Clienti;</li>
+          <li>gli utenti che accedono alla Piattaforma con credenziali proprie ("Utenti");</li>
+          <li>i rappresentanti e i referenti dei nostri fornitori.</li>
+        </ul>
+        <p>Le candidature di lavoro, la videosorveglianza dei nostri locali e la gestione del personale sono oggetto di informative separate, rese al momento della raccolta dei dati.</p>
+      </section>
+
+      <!-- 4 -->
+      <section id="s4">
+        <h2 class="sec"><span class="n">4</span>Quando siamo titolari e quando responsabili</h2>
+        <p>Il nostro ruolo cambia a seconda del dato.</p>
+        <p>Siamo <strong>titolari del trattamento</strong> per i dati che raccogliamo per finalità nostre: la gestione del sito, i contatti commerciali, la stipula e l'esecuzione del contratto, la fatturazione, l'assistenza, la sicurezza della Piattaforma e l'adempimento degli obblighi di legge. Sono i trattamenti descritti in questa informativa.</p>
+        <p>Siamo <strong>responsabili del trattamento</strong> per i dati che il Cliente carica sulla Piattaforma o ci trasmette tramite le nostre interfacce di programmazione per inviare i propri messaggi: rubriche, numerazioni, contenuti, dati di interazione. Su questi dati agiamo esclusivamente sulla base delle istruzioni del Cliente, alle condizioni dell'Allegato H al Contratto. Il Cliente è titolare e risponde della liceità della raccolta e dell'informativa resa ai propri destinatari.</p>
+        <p>Vi è infine un'area intermedia, descritta alla <a href="#s10">sezione 10</a>: i metadati di traffico trattati per prevenire frodi, abusi e attacchi alla rete.</p>
+      </section>
+
+      <!-- 5 -->
+      <section id="s5">
+        <h2 class="sec"><span class="n">5</span>Se visiti il sito nifteem.com</h2>
+        <p>Quando visiti il sito, i sistemi che lo erogano registrano automaticamente alcune informazioni tecniche: indirizzo IP, data e ora della richiesta, pagine consultate, esito della richiesta, tipo e versione del browser e del sistema operativo. Sono dati che non usiamo per identificarti, ma che servono a far funzionare il sito, a rilevare malfunzionamenti e a difenderci da attacchi.</p>
+        <p>Se hai prestato il consenso tramite il banner, utilizziamo inoltre Google Analytics 4 per capire come il sito viene utilizzato e per misurare l'efficacia delle nostre iniziative.</p>
+        <p>Il dettaglio dei cookie e delle tecnologie analoghe è nella Cookie Policy, raggiungibile dal footer del sito. Puoi modificare le tue scelte in qualsiasi momento dal pannello delle preferenze.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Trattamenti connessi alla navigazione sul sito</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Erogazione e funzionamento del sito</td>
+                <td data-label="Base giuridica">Legittimo interesse a rendere disponibile il sito e a mantenerne la sicurezza (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Dati di navigazione, indirizzo IP, log del server web</td>
+                <td data-label="Conservazione">Per il tempo necessario alle finalità di sicurezza e diagnostica, secondo i termini definiti nella nostra politica di gestione dei log</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Misurazione statistica del traffico (Google Analytics 4)</td>
+                <td data-label="Base giuridica">Consenso prestato tramite il banner cookie (art. 6.1.a GDPR)</td>
+                <td data-label="Dati trattati">Identificatori di cookie, pagine visitate, provenienza, dati di dispositivo</td>
+                <td data-label="Conservazione">Secondo la configurazione dello strumento, indicata nella Cookie Policy</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Prenotazione di appuntamenti tramite Calendly</td>
+                <td data-label="Base giuridica">Esecuzione di misure precontrattuali su tua richiesta (art. 6.1.b GDPR)</td>
+                <td data-label="Dati trattati">Nome, indirizzo e-mail, fuso orario, note che inserisci nel modulo</td>
+                <td data-label="Conservazione">Fino al venir meno dell'interesse al contatto, salvo instaurazione di un rapporto contrattuale</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 6 -->
+      <section id="s6">
+        <h2 class="sec"><span class="n">6</span>Se ci contatti o richiedi una demo</h2>
+        <p>Quando compili un modulo di contatto, richiedi una demo o ci scrivi, raccogliamo i dati che ci fornisci: tipicamente nome e cognome, azienda e ruolo, indirizzo e-mail, numero di telefono e il contenuto della tua richiesta. Usiamo HubSpot per gestire questi contatti.</p>
+        <p>Ti chiediamo di non inserire nei campi liberi dati non necessari, e in particolare dati che rivelino lo stato di salute, convinzioni religiose o filosofiche, opinioni politiche o l'appartenenza sindacale.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Trattamenti connessi ai contatti commerciali</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Riscontro alle richieste di informazioni, preventivi e demo</td>
+                <td data-label="Base giuridica">Esecuzione di misure precontrattuali su tua richiesta (art. 6.1.b GDPR)</td>
+                <td data-label="Dati trattati">Dati anagrafici e di contatto, dati aziendali, contenuto della richiesta</td>
+                <td data-label="Conservazione">Fino alla definizione della richiesta e, in assenza di rapporto contrattuale, fino al venir meno dell'interesse al contatto, verificato con revisioni periodiche dei contatti inattivi</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Gestione della relazione commerciale con i referenti dei Clienti e dei potenziali Clienti</td>
+                <td data-label="Base giuridica">Legittimo interesse allo svolgimento dell'attività commerciale (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Dati di contatto professionali, storico delle interazioni</td>
+                <td data-label="Conservazione">Fino al venir meno dell'interesse commerciale, verificato con revisioni periodiche dei contatti inattivi</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Ad oggi non inviamo newsletter e non svolgiamo attività di marketing diretto, di profilazione commerciale o di creazione di segmenti pubblicitari.</p>
+      </section>
+
+      <!-- 7 -->
+      <section id="s7">
+        <h2 class="sec"><span class="n">7</span>Se ti registri e utilizzi la Piattaforma</h2>
+
+        <h3>7.1 Creazione e gestione dell'account</h3>
+        <p>Puoi arrivare alla Piattaforma in due modi: registrandoti autonomamente su app.nifteem.com, oppure ricevendo da noi delle credenziali di primo accesso quando è la tua azienda a chiedere l'attivazione.</p>
+        <p>Nel secondo caso i tuoi dati ci sono stati comunicati dalla tua azienda, che li ha indicati come referente o utente autorizzato. Le categorie di dati e le finalità sono le stesse descritte in questa sezione.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Account, autenticazione e registrazione degli accessi</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Creazione dell'account, autenticazione e gestione degli Utenti</td>
+                <td data-label="Base giuridica">Esecuzione del Contratto (art. 6.1.b GDPR) o, per gli Utenti che non sono parte del Contratto, legittimo interesse alla gestione del rapporto con il Cliente (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Nome e cognome, indirizzo e-mail aziendale, numero di telefono, ruolo, credenziali di accesso in forma cifrata, eventuale secondo fattore di autenticazione</td>
+                <td data-label="Conservazione">Durata del rapporto contrattuale e periodo successivo necessario alla definizione delle pendenze</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Registrazione degli accessi e delle operazioni compiute sulla Piattaforma</td>
+                <td data-label="Base giuridica">Obbligo di rendere conto della sicurezza del trattamento (art. 6.1.c e art. 32 GDPR) e legittimo interesse alla sicurezza dei sistemi (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Indirizzo IP, data e ora, tipo di dispositivo e browser, operazioni eseguite, esito dell'autenticazione</td>
+                <td data-label="Conservazione">Per il tempo necessario alle finalità di sicurezza e diagnostica, secondo i termini definiti nella nostra politica di gestione dei log e nel rispetto dei termini minimi previsti dalla normativa applicabile</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>7.2 Verifica dell'identità e registrazione degli Alias</h3>
+        <p>Per attivare i Servizi e per registrare gli Alias mittente utilizzati sul canale SMS siamo tenuti a verificare l'identità del Cliente e la legittimazione di chi sottoscrive. Raccogliamo quindi i dati identificativi e, ove necessario, documentazione societaria che attesti la titolarità all'uso dell'alias.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Verifica dell'identità e gestione degli Alias mittente</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Verifica dell'identità del Cliente</td>
+                <td data-label="Base giuridica">Esecuzione del Contratto e adempimento di obblighi di legge (art. 6.1.b e 6.1.c GDPR)</td>
+                <td data-label="Dati trattati">Visura o documentazione societaria</td>
+                <td data-label="Conservazione">Durata del Contratto e periodo successivo necessario all'adempimento degli obblighi documentali e all'esercizio o alla difesa di un diritto</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Registrazione e gestione degli Alias mittente</td>
+                <td data-label="Base giuridica">Esecuzione del Contratto e adempimento di obblighi regolamentari (art. 6.1.b e 6.1.c GDPR)</td>
+                <td data-label="Dati trattati">Dati identificativi del Cliente e del richiedente, documentazione a supporto della titolarità dell'Alias</td>
+                <td data-label="Conservazione">Durata della registrazione dell'Alias e periodo successivo richiesto dalla procedura di registrazione e dagli obblighi documentali</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 8 -->
+      <section id="s8">
+        <h2 class="sec"><span class="n">8</span>Fatturazione e pagamenti</h2>
+        <p>Emettiamo fattura elettronica secondo la normativa applicabile. I pagamenti avvengono tramite bonifico bancario oppure tramite Stripe.</p>
+        <p>Quando paghi con carta, i dati della carta sono raccolti e trattati direttamente da Stripe nella propria infrastruttura: noi non vi accediamo e non li conserviamo. Riceviamo soltanto l'esito della transazione e gli identificativi necessari a riconciliare il pagamento.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Trattamenti amministrativi e contabili</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Fatturazione, incassi e adempimenti contabili e fiscali</td>
+                <td data-label="Base giuridica">Esecuzione del Contratto e obblighi di legge (art. 6.1.b e 6.1.c GDPR)</td>
+                <td data-label="Dati trattati">Dati anagrafici e fiscali, dati di fatturazione, estremi dei pagamenti, esito delle transazioni</td>
+                <td data-label="Conservazione">10 anni dalla registrazione, ai sensi dell'art. 2220 c.c. e della normativa fiscale</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Gestione dei mancati pagamenti e recupero del credito</td>
+                <td data-label="Base giuridica">Legittimo interesse al recupero delle somme dovute (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Dati contrattuali e di fatturazione, corrispondenza</td>
+                <td data-label="Conservazione">Fino alla definizione della posizione e per i successivi termini di prescrizione</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 9 -->
+      <section id="s9">
+        <h2 class="sec"><span class="n">9</span>Assistenza e supporto</h2>
+        <p>Gestiamo le richieste di assistenza via e-mail e telefono. Non registriamo le telefonate e non utilizziamo strumenti di analisi comportamentale all'interno della Piattaforma.</p>
+        <p>Nel gestire una segnalazione può accadere che accediamo a dati presenti nell'account del Cliente, ad esempio per riprodurre un errore. In quel caso agiamo come responsabili del trattamento, alle condizioni dell'Allegato H.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Gestione delle richieste di assistenza</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Gestione delle richieste di assistenza e delle segnalazioni</td>
+                <td data-label="Base giuridica">Esecuzione del Contratto (art. 6.1.b GDPR); legittimo interesse al miglioramento del servizio (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Dati di contatto, contenuto della richiesta, informazioni tecniche necessarie alla diagnosi</td>
+                <td data-label="Conservazione">Fino alla chiusura della richiesta e per il periodo successivo utile alla gestione di segnalazioni ricorrenti</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 10 -->
+      <section id="s10">
+        <h2 class="sec"><span class="n">10</span>Sicurezza della Piattaforma, prevenzione di frodi e abusi</h2>
+        <p>La messaggistica aziendale è un bersaglio costante di tentativi di abuso: contraffazione del mittente, smishing, invii massivi non autorizzati, sfruttamento fraudolento del traffico. Per contrastarli analizziamo, anche con sistemi automatizzati, i metadati del traffico che transita sulla Piattaforma: numerazioni, identificativi del mittente, volumi, orari, destinazioni, esiti di consegna e schemi di invio.</p>
+        <p>Svolgiamo questa attività per una finalità nostra, la sicurezza del servizio e della rete, e non su istruzione del Cliente: rispetto a questi trattamenti agiamo quindi come titolari, sulla base del legittimo interesse.</p>
+        <p>L'analisi ha per oggetto i metadati. Non ispezioniamo il contenuto dei messaggi per queste finalità, salvo che ciò sia strettamente necessario a verificare una minaccia già individuata o sia richiesto da un'autorità competente.</p>
+
+        <div class="tablewrap">
+          <table>
+            <caption>Sicurezza, antifrode e richieste delle autorità</caption>
+            <thead><tr><th>Finalità</th><th>Base giuridica</th><th>Dati trattati</th><th>Conservazione</th></tr></thead>
+            <tbody>
+              <tr>
+                <td data-label="Finalità">Prevenzione e individuazione di frodi, abusi e usi difformi dei Servizi</td>
+                <td data-label="Base giuridica">Legittimo interesse alla sicurezza del servizio e alla tutela dei propri diritti (art. 6.1.f GDPR)</td>
+                <td data-label="Dati trattati">Metadati di traffico, identificativi del mittente, numerazioni dei destinatari, volumi e schemi di invio, esiti</td>
+                <td data-label="Conservazione">Per il tempo necessario all'analisi dei fenomeni di abuso e comunque fino alla definizione dei casi già aperti</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Sicurezza delle reti e dei sistemi informativi</td>
+                <td data-label="Base giuridica">Legittimo interesse alla sicurezza dei sistemi (art. 6.1.f GDPR); art. 32 GDPR</td>
+                <td data-label="Dati trattati">Log di sistema, indirizzi IP, eventi di sicurezza</td>
+                <td data-label="Conservazione">Secondo i termini definiti nella nostra politica di gestione dei log</td>
+              </tr>
+              <tr>
+                <td data-label="Finalità">Riscontro a richieste dell'autorità giudiziaria e delle autorità competenti</td>
+                <td data-label="Base giuridica">Adempimento di obblighi di legge (art. 6.1.c GDPR)</td>
+                <td data-label="Dati trattati">Dati oggetto della richiesta</td>
+                <td data-label="Conservazione">Per il tempo indicato nel provvedimento e per la durata del procedimento</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 11 -->
+      <section id="s11">
+        <h2 class="sec"><span class="n">11</span>I dati dei destinatari dei messaggi</h2>
+
+        <h3>11.1 Il nostro ruolo</h3>
+        <p>I numeri, gli identificativi e i contenuti dei messaggi che transitano su Nifteem sono scelti e caricati dai nostri Clienti. Noi li trattiamo per loro conto, come responsabili, per instradare e recapitare i messaggi, produrre i report di consegna e fornire l'assistenza richiesta.</p>
+        <p>È il Cliente, in qualità di titolare, a dover disporre di una base giuridica idonea, a rendere l'informativa ai propri destinatari e a raccogliere gli eventuali consensi, come previsto dall'art. 26 delle Condizioni Generali e dall'Allegato H.</p>
+        <p>Il contenuto dei messaggi e i relativi dati di interazione restano disponibili sulla Piattaforma per il periodo previsto dal Piano sottoscritto dal Cliente, compreso fra 30 giorni e 12 mesi.</p>
+
+        <h3>11.2 Messaggi in ingresso</h3>
+        <p>I Servizi consentono la ricezione di messaggi da parte dei destinatari, sia come risposta a un messaggio inviato sia come contatto spontaneo verso le utenze del Cliente. Anche il contenuto dei messaggi in ingresso è trattato per conto del Cliente e segue i medesimi termini di conservazione.</p>
+        <p>Su Telegram, quando i Servizi operano tramite Bot API, il dato trattato è di regola l'identificativo di conversazione e non il numero di telefono, salvo che il destinatario scelga di condividerlo.</p>
+
+        <h3>11.3 Tracciamento dei link</h3>
+        <p>Se il Cliente attiva la funzione di tracciamento, i collegamenti inseriti nei messaggi vengono sostituiti da collegamenti brevi che, quando vengono aperti, registrano alcune informazioni: indirizzo IP, lingua preferita, browser e relativa versione, sistema operativo e versione, tipo di dispositivo, architettura del processore.</p>
+        <p>Sono dati riferibili al dispositivo del destinatario, e quindi dati personali. Li trattiamo per conto del Cliente, che decide se attivare la funzione e che deve darne conto nella propria informativa. Le tecnologie di tracciamento applicate al terminale del destinatario possono inoltre richiedere un consenso specifico, che spetta al Cliente raccogliere.</p>
+
+        <h3 id="s11-4">11.4 Hai ricevuto un messaggio e non sei nostro Cliente?</h3>
+        <p>Se hai ricevuto un SMS o un messaggio su RCS, WhatsApp o Telegram inviato tramite i nostri sistemi, quel messaggio è stato disposto da un'azienda che utilizza Nifteem, non da noi. È quell'azienda a decidere a chi scrivere e perché, ed è a lei che devi rivolgerti per esercitare i tuoi diritti, per chiedere la cancellazione dei tuoi dati o per interrompere le comunicazioni: normalmente è identificabile dal mittente o dal contenuto del messaggio.</p>
+        <p>Se non riesci a risalire al mittente, scrivici ai contatti della <a href="#s2">sezione 2</a>: ti indicheremo, nei limiti consentiti, a chi rivolgerti oppure trasmetteremo la tua richiesta al Cliente interessato. Non possiamo però dare seguito autonomamente a una richiesta che riguarda dati trattati per conto di altri.</p>
+      </section>
+
+      <!-- 12 -->
+      <section id="s12">
+        <h2 class="sec"><span class="n">12</span>Funzionalità di intelligenza artificiale</h2>
+        <p>Alcune funzionalità della Piattaforma si avvalgono di modelli di intelligenza artificiale, propri di MAMOBOX ovvero di fornitori terzi. Sono impiegate in due situazioni distinte, che comportano ruoli e responsabilità diversi.</p>
+
+        <h3>12.1 Quando sei tu a usare l'intelligenza artificiale sulla Piattaforma</h3>
+        <p>Si tratta degli strumenti che ti aiutano a scrivere o rivedere il testo di un messaggio. Il testo che inserisci e i parametri che selezioni sono trasmessi al fornitore del modello al solo fine di generare il risultato che hai richiesto. La base giuridica è l'esecuzione del contratto che ci lega.</p>
+        <p>Selezioniamo fornitori che si impegnano a non utilizzare i dati trasmessi per addestrare i propri modelli e, ove disponibile, attiviamo le opzioni che escludono la conservazione dei contenuti.</p>
+        <p>Ti chiediamo di non inserire nei testi dati personali non necessari, dati appartenenti a categorie particolari, dati relativi a condanne penali o dati relativi a minori.</p>
+
+        <h3>12.2 Quando l'intelligenza artificiale interviene nelle conversazioni</h3>
+        <p>Alcune funzionalità, per esempio specifici Moduli degli Agent, si avvalgono dell'intelligenza artificiale per condurre la conversazione con i destinatari dei tuoi messaggi: è il caso, fra gli altri, della raccolta di un riscontro dopo una valutazione negativa. In queste situazioni al fornitore del modello possono essere trasmessi anche i messaggi inviati dal destinatario.</p>
+        <p>Qui non agiamo come titolari. Il trattamento è svolto per tuo conto, in qualità di responsabili, e resta disciplinato dall'Allegato H (DPA) del Contratto: il fornitore del modello opera come sub-responsabile ed è indicato nella relativa Appendice. Sei tu a decidere quali Moduli attivare, con quali istruzioni e con quali messaggi.</p>
+        <p>Anche in questo caso i contenuti trasmessi non sono utilizzati per addestrare i modelli dei fornitori.</p>
+
+        <h3>12.3 Trasparenza verso i destinatari</h3>
+        <p>Chi riceve un messaggio ha diritto di sapere quando sta interagendo con un sistema automatizzato. La Piattaforma mette a disposizione i messaggi configurabili necessari a darne evidenza; spetta a te, in qualità di titolare del trattamento nei confronti dei tuoi contatti, assicurare che l'informazione sia resa in modo chiaro e riconoscibile al più tardi alla prima interazione, secondo quanto previsto dall'Allegato E del Contratto e dalla normativa europea in materia di intelligenza artificiale.</p>
+        <p>L'impiego di queste funzionalità non comporta decisioni automatizzate che producano effetti giuridici o incidano in modo analogamente significativo sulle persone: si veda la <a href="#s18">sezione 18</a>.</p>
+      </section>
+
+      <!-- 13 -->
+      <section id="s13">
+        <h2 class="sec"><span class="n">13</span>Dati aggregati e statistiche</h2>
+        <p>Possiamo produrre statistiche e metriche aggregate sull'utilizzo della Piattaforma, ad esempio sui volumi complessivi per canale o sui tassi di consegna. Sono informazioni riferite all'andamento del servizio, non a persone identificate o identificabili.</p>
+      </section>
+
+      <!-- 14 -->
+      <section id="s14">
+        <h2 class="sec"><span class="n">14</span>Con chi condividiamo i dati</h2>
+        <p>I tuoi dati sono accessibili al personale di MAMOBOX autorizzato al trattamento e istruito in tal senso. Al di fuori, li comunichiamo soltanto a:</p>
+        <ul>
+          <li>fornitori che erogano servizi per nostro conto e che agiscono come responsabili del trattamento, nominati per iscritto: infrastruttura e hosting, strumenti di gestione dei contatti, servizi di posta elettronica e collaborazione, servizi di fatturazione e contabilità;</li>
+          <li>fornitori che intervengono nell'erogazione dei Servizi di messaggistica, elencati nell'Appendice 2 al DPA e nella pagina dedicata del sito;</li>
+          <li>professionisti e consulenti in ambito legale, contabile, fiscale e assicurativo;</li>
+          <li>istituti bancari e fornitori di servizi di pagamento, nei limiti necessari all'esecuzione delle transazioni;</li>
+          <li>autorità pubbliche e organi giurisdizionali, quando siamo tenuti a farlo per legge o per un provvedimento;</li>
+          <li>soggetti coinvolti in operazioni societarie straordinarie quali fusioni, scissioni, cessioni di azienda o di ramo d'azienda, nei limiti necessari alla realizzazione dell'operazione.</li>
+        </ul>
+
+      </section>
+
+      <!-- 15 -->
+      <section id="s15">
+        <h2 class="sec"><span class="n">15</span>Trasferimenti fuori dallo Spazio economico europeo</h2>
+        <p>Alcuni fornitori hanno sede o operano al di fuori dello Spazio economico europeo. In questi casi il trasferimento avviene solo in presenza di una delle condizioni previste dal Capo V del Regolamento: una decisione di adeguatezza della Commissione europea oppure le clausole contrattuali tipo, integrate se necessario da misure supplementari.</p>
+        <p>I fornitori che operano fuori dallo Spazio economico europeo, le rispettive garanzie e i luoghi di trattamento sono indicati nell'elenco unico richiamato alla <a href="#s14">sezione 14</a> e, per i trattamenti svolti per conto del Cliente, nell'Appendice 2 al DPA. Vi rientrano, fra gli altri, i fornitori del canale WhatsApp, dell'infrastruttura RCS, dei servizi di rete e dei modelli di intelligenza artificiale.</p>
+        <p>Puoi chiederci copia delle garanzie adottate scrivendo ai contatti della <a href="#s2">sezione 2</a>.</p>
+      </section>
+
+      <!-- 16 -->
+      <section id="s16">
+        <h2 class="sec"><span class="n">16</span>Per quanto tempo conserviamo i dati</h2>
+        <p>Conserviamo i dati personali per il tempo necessario a realizzare le finalità per cui sono stati raccolti e, di regola, per la durata del rapporto contrattuale. I criteri applicati a ciascun trattamento sono indicati nelle tabelle delle sezioni precedenti; di seguito una sintesi.</p>
+
+        <div class="tablewrap">
+          <table class="two">
+            <caption>Sintesi dei termini e criteri di conservazione</caption>
+            <thead><tr><th>Categoria di dati</th><th>Criterio o termine</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Categoria">Dati di contatto di prospect e richieste informative</td><td data-label="Criterio o termine">Fino al venir meno dell'interesse al contatto, verificato con revisioni periodiche dei contatti inattivi</td></tr>
+              <tr><td data-label="Categoria">Dati dell'account e degli Utenti</td><td data-label="Criterio o termine">Durata del rapporto contrattuale e periodo successivo necessario alla definizione delle pendenze</td></tr>
+              <tr><td data-label="Categoria">Log di accesso, di sicurezza e applicativi</td><td data-label="Criterio o termine">Secondo i termini definiti nella nostra politica di gestione dei log, nel rispetto dei termini minimi previsti dalla normativa applicabile</td></tr>
+              <tr><td data-label="Categoria">Metadati di traffico trattati per finalità di sicurezza e antifrode</td><td data-label="Criterio o termine">Per il tempo necessario all'analisi dei fenomeni di abuso e fino alla definizione dei casi aperti</td></tr>
+              <tr><td data-label="Categoria">Contenuto dei messaggi e dati di interazione</td><td data-label="Criterio o termine">Secondo il Piano sottoscritto dal Cliente, come indicato nell'offerta e nella documentazione contrattuale</td></tr>
+              <tr><td data-label="Categoria">Dati di fatturazione e documentazione contabile</td><td data-label="Criterio o termine">10 anni, ai sensi dell'art. 2220 c.c. e della normativa fiscale</td></tr>
+              <tr><td data-label="Categoria">Documentazione relativa agli Alias</td><td data-label="Criterio o termine">Durata della registrazione e periodo successivo richiesto dalla procedura e dagli obblighi documentali</td></tr>
+              <tr><td data-label="Categoria">Richieste di assistenza</td><td data-label="Criterio o termine">Fino alla chiusura della richiesta e per il periodo successivo utile alla gestione di segnalazioni ricorrenti</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Ti segnaliamo che alcuni obblighi di legge impongono la conservazione dei dati anche dopo la cessazione del rapporto: è il caso, fra gli altri, delle norme in materia di conservazione della documentazione contabile e fiscale e delle disposizioni che impongono di dare riscontro alle richieste dell'autorità giudiziaria. La conservazione può inoltre proseguire per il tempo necessario ad accertare, esercitare o difendere un diritto in sede giudiziaria, ovvero fino alla definizione di un procedimento già avviato.</p>
+        <p>Decorso il periodo applicabile, i dati sono cancellati oppure resi anonimi in modo irreversibile.</p>
+        <p>Se vuoi conoscere il termine concretamente applicato a un determinato trattamento, puoi chiedercelo ai contatti della <a href="#s2">sezione 2</a> e te lo indicheremo.</p>
+
+
+      </section>
+
+      <!-- 17 -->
+      <section id="s17">
+        <h2 class="sec"><span class="n">17</span>Come proteggiamo i dati</h2>
+        <p>Adottiamo misure tecniche e organizzative adeguate al rischio, descritte in dettaglio nell'Appendice 1 all'Allegato H del Contratto e disponibili su richiesta. Riguardano fra l'altro il controllo degli accessi fisici e logici, l'autenticazione a più fattori per gli accessi amministrativi, la cifratura dei dati in transito e a riposo, la segregazione logica dei dati dei diversi Clienti, la tracciabilità delle operazioni, le copie di sicurezza e le procedure di gestione degli incidenti.</p>
+        <p>Nessuna misura elimina del tutto il rischio. Se si verifica una violazione dei dati personali che comporta un rischio elevato per i tuoi diritti, te ne daremo comunicazione nei modi e nei termini previsti dal Regolamento.</p>
+      </section>
+
+      <!-- 18 -->
+      <section id="s18">
+        <h2 class="sec"><span class="n">18</span>Decisioni automatizzate</h2>
+        <p>Non adottiamo decisioni basate unicamente su trattamenti automatizzati che producano effetti giuridici o incidano in modo analogamente significativo sulle persone fisiche, e non svolgiamo attività di profilazione a fini commerciali.</p>
+        <p>I sistemi antifrode descritti alla <a href="#s10">sezione 10</a> possono bloccare automaticamente l'inoltro di messaggi che presentano caratteristiche riconducibili a un abuso. Si tratta di una misura che incide sul flusso di traffico del Cliente, non di una decisione assunta nei confronti del destinatario. Il Cliente può chiedere il riesame del blocco tramite i canali di assistenza.</p>
+      </section>
+
+      <!-- 19 -->
+      <section id="s19">
+        <h2 class="sec"><span class="n">19</span>I tuoi diritti</h2>
+        <p>Puoi esercitare in ogni momento i diritti che il Regolamento ti riconosce:</p>
+        <ul>
+          <li>accedere ai tuoi dati e ottenerne copia;</li>
+          <li>chiederne la rettifica se sono inesatti o incompleti;</li>
+          <li>chiederne la cancellazione, nei casi previsti dall'art. 17;</li>
+          <li>chiedere la limitazione del trattamento, nei casi previsti dall'art. 18;</li>
+          <li>ricevere in formato strutturato e di uso comune i dati trattati sulla base del consenso o del contratto, e chiederne la trasmissione a un altro titolare;</li>
+          <li>opporti, per motivi connessi alla tua situazione particolare, ai trattamenti fondati sul nostro legittimo interesse;</li>
+          <li>revocare in qualsiasi momento il consenso prestato, senza che ciò pregiudichi la liceità del trattamento svolto prima della revoca.</li>
+        </ul>
+        <p>Per esercitarli scrivici ai contatti della <a href="#s2">sezione 2</a>. Ti risponderemo senza ingiustificato ritardo e comunque entro un mese dal ricevimento della richiesta, termine prorogabile di due mesi in caso di richieste particolarmente complesse, dandotene avviso.</p>
+        <p>Se la richiesta riguarda dati che trattiamo per conto di un Cliente, la trasmetteremo a quest'ultimo e te ne daremo conferma, senza darvi seguito autonomamente.</p>
+        <p>Se ritieni che il trattamento dei tuoi dati violi il Regolamento, puoi proporre reclamo all'autorità di controllo dello Stato in cui risiedi abitualmente, in cui lavori o in cui si è verificata la presunta violazione. In Italia l'autorità competente è il Garante per la protezione dei dati personali, Piazza Venezia 11, 00187 Roma (<a href="https://www.garanteprivacy.it" rel="noopener">www.garanteprivacy.it</a>). Resta impregiudicato il diritto di agire in sede giudiziaria.</p>
+      </section>
+
+      <!-- 20 -->
+      <section id="s20">
+        <h2 class="sec"><span class="n">20</span>Minori</h2>
+        <p>I Servizi sono destinati esclusivamente a soggetti che agiscono nell'esercizio di un'attività imprenditoriale, commerciale, artigianale o professionale, e l'accesso alla Piattaforma è riservato ai maggiorenni. Non raccogliamo consapevolmente dati di minori. Se ci accorgiamo di averne raccolti, li cancelliamo senza indugio.</p>
+      </section>
+
+      <!-- 21 -->
+      <section id="s21">
+        <h2 class="sec"><span class="n">21</span>Cookie</h2>
+        <p>L'uso dei cookie e delle tecnologie analoghe sul sito nifteem.com è descritto nella Cookie Policy, che costituisce parte integrante di questa informativa e che puoi consultare dal footer del sito e modificare in ogni momento dal pannello delle preferenze.</p>
+      </section>
+
+      <!-- 22 -->
+      <section id="s22">
+        <h2 class="sec"><span class="n">22</span>Modifiche</h2>
+        <p>Possiamo aggiornare questa informativa per adeguarla a modifiche dei Servizi, dell'organizzazione o della normativa. La versione aggiornata è sempre disponibile su nifteem.com e ne indichiamo in calce la data di ultima revisione.</p>
+        <p>Se la modifica è sostanziale, ne diamo comunicazione ai Clienti secondo le modalità previste dall'art. 30 delle Condizioni Generali, con un preavviso di 30 giorni. Quando la legge lo richiede, raccogliamo il tuo consenso prima di applicare la modifica.</p>
+      </section>
+
+      <!-- 23 -->
+      <section id="s23">
+        <h2 class="sec"><span class="n">23</span>Contatti</h2>
+        <p>MAMOBOX S.r.l. — via Masi Simonetti 48, 32100 Belluno (BL) — info@mamobox.it</p>
+      </section>
+
+    </article>
+  </div>
+</div>
+
+<footer>
+  <p class="org">Nifteem &middot; MAMOBOX S.R.L.</p>
+  <p>Via Masi Simonetti, 48 &mdash; 32100 Belluno (BL) &middot; P.Iva 01220280257 &middot; info@mamobox.it</p>
+  <p>Ultimo aggiornamento: 1 settembre 2026 &middot; <a href="index.html">Torna al sito</a></p>
+</footer>
+
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var sections = Array.prototype.slice.call(document.querySelectorAll('article section'));
+  if(!('IntersectionObserver' in window) || !sections.length) return;
+
+  var visible = new Set();
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting) visible.add(e.target.id); else visible.delete(e.target.id);
+    });
+    var current = sections.filter(function(s){ return visible.has(s.id); })[0];
+    links.forEach(function(a){ a.classList.remove('here'); });
+    if(current && map[current.id]) map[current.id].classList.add('here');
+  }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+
+  sections.forEach(function(s){ obs.observe(s); });
+})();
+</script>
+
+</body>
+</html>
